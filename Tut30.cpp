@@ -4,32 +4,32 @@ using namespace std;
 
 class Complex
 {
-    int a, b;
+    int p, q;
 
 public:
     Complex(int, int); // Constructor declaration
 
     void printNumber()
     {
-        cout << "Your number is " << a << " + " << b << "i" << endl;
+        cout << "Your number is " << p << " + " << q << "i" << endl;
     }
 };
 
 Complex ::Complex(int x, int y) // ----> This is a parameterized constructor as it takes 2 parameters
 {
-    a = x;
-    b = y;
+    p = x;
+    q = y;
     // cout<<"Hello world";
 }
 
 int main(){
     // Implicit call
-    Complex a(4, 6);
-    a.printNumber();
+    Complex p(4, 6);
+    p.printNumber();
 
     // Explicit call
-    Complex b = Complex(5, 7);
-    b.printNumber();
+    Complex q = Complex(5, 7);
+    q.printNumber();
 
     return 0;
 }
