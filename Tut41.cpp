@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Base1{
 protected:
     int base1int;
