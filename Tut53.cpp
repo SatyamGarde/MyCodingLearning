@@ -15,6 +15,6 @@ class A{
 int main(){
     A a;
     a.setData(4);
-    a.getData();
+    a.getData(); 
     return 0;
 }
