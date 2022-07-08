@@ -11,19 +11,19 @@ int main(){
     mathMarks[2] = 378;
     mathMarks[3] = 578;
 
-    cout<<"These are math marks"<<endl;
-    cout<<mathMarks[0]<<endl;
-    cout<<mathMarks[1]<<endl;
-    cout<<mathMarks[2]<<endl;
-    cout<<mathMarks[3]<<endl;
+    // cout<<"These are math marks"<<endl;
+    // cout<<mathMarks[0]<<endl;
+    // cout<<mathMarks[1]<<endl;
+    // cout<<mathMarks[2]<<endl;
+    // cout<<mathMarks[3]<<endl;
 
     // You can change the value of an array
     marks[2] = 455;
     cout<<"These are marks"<<endl;
-    // cout<<marks[0]<<endl;
-    // cout<<marks[1]<<endl;
-    // cout<<marks[2]<<endl;
-    // cout<<marks[3]<<endl;
+    cout<<marks[0]<<endl;
+    cout<<marks[1]<<endl;
+    cout<<marks[2]<<endl;
+    cout<<marks[3]<<endl;
 
     for (int i = 0; i < 4; i++)
     {
