@@ -35,7 +35,7 @@ int main(){
     int a;
     cout<<"Enter a number"<<endl;
     cin>>a;
-    // cout<<"The factorial of "<<a<< " is "<<factorial(a)<<endl;
+    cout<<"The factorial of "<<a<< " is "<<factorial(a)<<endl;
     cout<<"The term in fibonacci sequence at position "<<a<< " is "<<fib(a)<<endl;
     return 0;
 }
